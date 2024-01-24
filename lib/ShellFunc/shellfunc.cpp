@@ -20,8 +20,8 @@ int ESP_REF(int argc, char **argv) {
         shell.println("Author: XiaoJun");
         // print lib
         shell.println("Libraries:");
-        shell.println("CAN_ESP");
-        shell.println("ShellFunc");
+        shell.println("         CAN_ESP");
+        shell.println("         ShellFunc");
 
     } else
         shell.println("bad argument count");
